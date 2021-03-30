@@ -1,5 +1,5 @@
 // information to reach API
-const API = "https://shakshya-api.herokuapp.com/api";
+const API = "https://new-shakshya.herokuapp.com/api";
 
 
 // selecting page elements
@@ -14,7 +14,7 @@ const submit2 = document.querySelector("#submit2");
 const forPara = () => {
   const data = { title: title.value, maintext: maintext.value };
 
-  fetch("https://shakshya-api.herokuapp.com/api", {
+  fetch("https://new-shakshya.herokuapp.com/api", {
     method: "POST", // or 'PUT'
     headers: {
       "Content-Type": "application/json",
